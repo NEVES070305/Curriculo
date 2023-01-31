@@ -1,0 +1,52 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foto{
+    left: 70%;
+}
+h1{
+    margin: 0%;
+    background-color: rgb(29, 14, 236);
+    font-size: xx-large;
+}
+
+.formacao{
+    font-size: medium;
+    width: 30%;
+    height: auto;
+    left: 0%;
+}
+
+.skills{
+    position: absolute;
+    right: 70%;
+    width: 70%;
+    left: 30%;
+    margin-right: 70%;
+    padding-left: 5px ;
+}
+
+.linha{
+    margin-right: 75%;
+    color: blue;
+}
+
+.linhacurso{
+    border-color: blue;
+}
+
+.experiencia{
+    background-color: blue;
+    margin-right: 70%;
+    text-align: center;
+    margin-top: 75px;
+    }
+
+h3{
+    background-color: crimson;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
