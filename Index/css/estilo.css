@@ -2,6 +2,9 @@ body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.div1{
+    display: flex;
+}
 .foto{
     left: 70%;
 }
