@@ -1,10 +1,15 @@
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin: 0px;
+   margin: 20px;
+   background-color: aliceblue;
 }
 
 h3{
     font-size: small;
+}
+
+.margem{
+    margin-right: 30px;
 }
 .div1{
     display: flex;
@@ -19,11 +24,16 @@ h3{
 .div3{
     display: flex;
     flex-direction: column;
+    width: 40%;
+    border-right: 1px solid blue;
 }
 
-.foto{
-    left: 70%;
+.div4{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
+
 
 h1{
     margin: 0%;
@@ -33,13 +43,13 @@ h1{
 
 .formacao{
     font-size: medium;
-    width: 40%;
-    background-color: aqua;
+    width: 50%;
+   
 }
 
 .skills{
     width: 40%;
-    background-color: rgb(57, 123, 123);
+    padding-left: 70px;
 }
 
 .imagem img{
@@ -50,25 +60,28 @@ h1{
 
 
 .linha{
-    margin-right: 75%;
     border-color: blue;
 }
 
 .linhaskills{
+    margin-left: 0%;
+    width: 55%;
     border-color: blue;
 }
 .linhacurso{
+    margin-top: 0%;
+    width: 100%;
     border-color: blue;
 }
 
 .experiencia{
     background-color: blue;
     text-align: center;
-    margin-top: 75px;
-    }
+    margin-top: 84px;
+    margin-right: 10px;
+}
 
 h3{
-    background-color: crimson;
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 50%;
@@ -76,4 +89,36 @@ h3{
 
 .excel{
     padding-left: 20px;
+}
+
+.email{
+    margin-top: 23px;
+    margin-left: 25px;
+    text-align: center;
+    border: 1px solid rgb(23, 46, 221);
+}
+
+.maissobre{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 25px;
+}
+
+.tamimagem{
+    margin-top: 100px;
+    width: 25%;
+    margin-left: 60px;
+}
+
+.cursos{
+    font-size: medium;
+}
+
+.padding{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.vejamais{
+    font-size: xx-large;
 }
