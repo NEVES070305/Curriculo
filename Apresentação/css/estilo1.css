@@ -1,6 +1,15 @@
 body{
     display: flex;
     flex-direction: row;
+    margin-left: 60px;
+    margin-top: 0px;
+    background-image: linear-gradient(to bottom, white, rgba(224, 39, 39, 0.557));
+}
+h3{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .div2{
@@ -45,4 +54,60 @@ h1{
 }
 .div4{
     background-color: crimson;
+}
+
+.sitcom{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid red;
+}
+
+.distopia{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid red;
+}
+
+.gostos{
+    border: 2px solid red;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.ext{
+    border: 2px solid red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.violino{
+    border: 2px solid red;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ora{
+    border: 2px solid red;
+}
+
+.mat{
+    color: crimson;
+}
+
+.img2{
+    margin-left: 25px;
+}
+
+.img3{
+    margin-left: 45px;
+}
+
+.oratoria{
+    margin-top: 100px;
+
+}
+
+.or{
+    margin-top: 100px;
 }
