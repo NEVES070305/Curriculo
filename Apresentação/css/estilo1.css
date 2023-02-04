@@ -95,13 +95,34 @@ h1{
     color: crimson;
 }
 
+.img1{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.img1:hover:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 .img2{
     margin-left: 25px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
 }
+
+.img2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 
 .img3{
     margin-left: 45px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
 }
+.img3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 
 .oratoria{
     margin-top: 100px;
@@ -111,3 +132,39 @@ h1{
 .or{
     margin-top: 100px;
 }
+.imgthe{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.imgthe:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imguni{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.imguni:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+button {
+    border-color: brown;
+    color: crimson;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, rgb(224, 118, 25) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 100px;
+    height: 50px;
+    border-radius: 25%;
+  }
+  
+  button:hover {
+    background-position: 0;
+  }
